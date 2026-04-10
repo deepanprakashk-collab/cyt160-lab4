@@ -1,0 +1,1170 @@
+{
+  "timestamp": "2026-04-10T05:43:03.256863+0000",
+  "flow_id": 1421857437457128,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4829,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2000001,
+    "rev": 1,
+    "signature": "MQTT Excessive Publish Rate — Possible Flood Attack",
+    "category": "Attempted Denial of Service",
+    "severity": 2
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 102,
+    "pkts_toclient": 100,
+    "bytes_toserver": 12605,
+    "bytes_toclient": 6612,
+    "start": "2026-04-10T05:42:29.068907+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4829,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:52.697084+0000",
+  "flow_id": 112415359497282,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4807,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2000002,
+    "rev": 1,
+    "signature": "MQTT Payload Contains Undefined — Malformed JSON Indicator",
+    "category": "Potentially Bad Traffic",
+    "severity": 2
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 4,
+    "bytes_toserver": 498,
+    "bytes_toclient": 276,
+    "start": "2026-04-10T07:17:52.091709+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4807,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.150077+0000",
+  "flow_id": 112415359497282,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4807,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2000002,
+    "rev": 1,
+    "signature": "MQTT Payload Contains Undefined — Malformed JSON Indicator",
+    "category": "Potentially Bad Traffic",
+    "severity": 2
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 7,
+    "pkts_toclient": 5,
+    "bytes_toserver": 982,
+    "bytes_toclient": 342,
+    "start": "2026-04-10T07:17:52.091709+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4807,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.150077+0000",
+  "flow_id": 112415359497282,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4807,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2000003,
+    "rev": 1,
+    "signature": "MQTT Oversized Repeated-Byte Payload — Buffer Overflow Probe",
+    "category": "Potentially Bad Traffic",
+    "severity": 2
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 7,
+    "pkts_toclient": 5,
+    "bytes_toserver": 982,
+    "bytes_toclient": 342,
+    "start": "2026-04-10T07:17:52.091709+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4807,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.150077+0000",
+  "flow_id": 112415359497282,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4807,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 7,
+    "pkts_toclient": 5,
+    "bytes_toserver": 982,
+    "bytes_toclient": 342,
+    "start": "2026-04-10T07:17:52.091709+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4807,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.679181+0000",
+  "flow_id": 112415359497282,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4807,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2000003,
+    "rev": 1,
+    "signature": "MQTT Oversized Repeated-Byte Payload — Buffer Overflow Probe",
+    "category": "Potentially Bad Traffic",
+    "severity": 2
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 8,
+    "pkts_toclient": 6,
+    "bytes_toserver": 1050,
+    "bytes_toclient": 408,
+    "start": "2026-04-10T07:17:52.091709+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4807,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.679181+0000",
+  "flow_id": 112415359497282,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4807,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 8,
+    "pkts_toclient": 6,
+    "bytes_toserver": 1050,
+    "bytes_toclient": 408,
+    "start": "2026-04-10T07:17:52.091709+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4807,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.735789+0000",
+  "flow_id": 345440707184441,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4805,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 454,
+    "bytes_toclient": 0,
+    "start": "2026-04-10T07:17:53.735789+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4805,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.735867+0000",
+  "flow_id": 345440707184441,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4805,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 2,
+    "pkts_toclient": 1,
+    "bytes_toserver": 908,
+    "bytes_toclient": 58,
+    "start": "2026-04-10T07:17:53.735789+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4805,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.736007+0000",
+  "flow_id": 345440707184441,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4805,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 3,
+    "pkts_toclient": 2,
+    "bytes_toserver": 1362,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T07:17:53.735789+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4805,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.736064+0000",
+  "flow_id": 345440707184441,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4805,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 4,
+    "pkts_toclient": 2,
+    "bytes_toserver": 1816,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T07:17:53.735789+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4805,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.736151+0000",
+  "flow_id": 345440707184441,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4805,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 2,
+    "bytes_toserver": 2270,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T07:17:53.735789+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4805,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.736253+0000",
+  "flow_id": 345440707184441,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4805,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 2,
+    "bytes_toserver": 2724,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T07:17:53.735789+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4805,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.736345+0000",
+  "flow_id": 345440707184441,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4805,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 7,
+    "pkts_toclient": 2,
+    "bytes_toserver": 3178,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T07:17:53.735789+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4805,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.736449+0000",
+  "flow_id": 345440707184441,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4805,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 8,
+    "pkts_toclient": 2,
+    "bytes_toserver": 3632,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T07:17:53.735789+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4805,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.736538+0000",
+  "flow_id": 345440707184441,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4805,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 9,
+    "pkts_toclient": 2,
+    "bytes_toserver": 4086,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T07:17:53.735789+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4805,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:17:53.739467+0000",
+  "flow_id": 345440707184441,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4805,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 10,
+    "pkts_toclient": 2,
+    "bytes_toserver": 4540,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T07:17:53.735789+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4805,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T07:42:22.163787+0000",
+  "flow_id": 1138895440192022,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4844,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2000001,
+    "rev": 1,
+    "signature": "MQTT Excessive Publish Rate — Possible Flood Attack",
+    "category": "Attempted Denial of Service",
+    "severity": 2
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 102,
+    "pkts_toclient": 100,
+    "bytes_toserver": 12614,
+    "bytes_toclient": 6612,
+    "start": "2026-04-10T07:41:48.003025+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4844,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:17.954068+0000",
+  "flow_id": 342917052040579,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4808,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2000002,
+    "rev": 1,
+    "signature": "MQTT Payload Contains Undefined — Malformed JSON Indicator",
+    "category": "Potentially Bad Traffic",
+    "severity": 2
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 4,
+    "bytes_toserver": 498,
+    "bytes_toclient": 276,
+    "start": "2026-04-10T08:02:17.210913+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4808,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.372017+0000",
+  "flow_id": 342917052040579,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4808,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2000002,
+    "rev": 1,
+    "signature": "MQTT Payload Contains Undefined — Malformed JSON Indicator",
+    "category": "Potentially Bad Traffic",
+    "severity": 2
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 7,
+    "pkts_toclient": 5,
+    "bytes_toserver": 982,
+    "bytes_toclient": 342,
+    "start": "2026-04-10T08:02:17.210913+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4808,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.372017+0000",
+  "flow_id": 342917052040579,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4808,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2000003,
+    "rev": 1,
+    "signature": "MQTT Oversized Repeated-Byte Payload — Buffer Overflow Probe",
+    "category": "Potentially Bad Traffic",
+    "severity": 2
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 7,
+    "pkts_toclient": 5,
+    "bytes_toserver": 982,
+    "bytes_toclient": 342,
+    "start": "2026-04-10T08:02:17.210913+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4808,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.372017+0000",
+  "flow_id": 342917052040579,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4808,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 7,
+    "pkts_toclient": 5,
+    "bytes_toserver": 982,
+    "bytes_toclient": 342,
+    "start": "2026-04-10T08:02:17.210913+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4808,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.925883+0000",
+  "flow_id": 342917052040579,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4808,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 2000003,
+    "rev": 1,
+    "signature": "MQTT Oversized Repeated-Byte Payload — Buffer Overflow Probe",
+    "category": "Potentially Bad Traffic",
+    "severity": 2
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 8,
+    "pkts_toclient": 6,
+    "bytes_toserver": 1050,
+    "bytes_toclient": 408,
+    "start": "2026-04-10T08:02:17.210913+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4808,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.925883+0000",
+  "flow_id": 342917052040579,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4808,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "app_proto": "mqtt",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 8,
+    "pkts_toclient": 6,
+    "bytes_toserver": 1050,
+    "bytes_toclient": 408,
+    "start": "2026-04-10T08:02:17.210913+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4808,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.966871+0000",
+  "flow_id": 774983892069949,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4860,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 1,
+    "pkts_toclient": 0,
+    "bytes_toserver": 454,
+    "bytes_toclient": 0,
+    "start": "2026-04-10T08:02:18.966871+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4860,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.970823+0000",
+  "flow_id": 774983892069949,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4860,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 2,
+    "pkts_toclient": 1,
+    "bytes_toserver": 908,
+    "bytes_toclient": 58,
+    "start": "2026-04-10T08:02:18.966871+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4860,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.974813+0000",
+  "flow_id": 774983892069949,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4860,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 3,
+    "pkts_toclient": 2,
+    "bytes_toserver": 1362,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T08:02:18.966871+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4860,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.978826+0000",
+  "flow_id": 774983892069949,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4860,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 4,
+    "pkts_toclient": 2,
+    "bytes_toserver": 1816,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T08:02:18.966871+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4860,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.978906+0000",
+  "flow_id": 774983892069949,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4860,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 5,
+    "pkts_toclient": 2,
+    "bytes_toserver": 2270,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T08:02:18.966871+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4860,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.982828+0000",
+  "flow_id": 774983892069949,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4860,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 6,
+    "pkts_toclient": 2,
+    "bytes_toserver": 2724,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T08:02:18.966871+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4860,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.982925+0000",
+  "flow_id": 774983892069949,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4860,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 7,
+    "pkts_toclient": 2,
+    "bytes_toserver": 3178,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T08:02:18.966871+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4860,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.986842+0000",
+  "flow_id": 774983892069949,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4860,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 8,
+    "pkts_toclient": 2,
+    "bytes_toserver": 3632,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T08:02:18.966871+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4860,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.990824+0000",
+  "flow_id": 774983892069949,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4860,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 9,
+    "pkts_toclient": 2,
+    "bytes_toserver": 4086,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T08:02:18.966871+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4860,
+    "dest_port": 1883
+  }
+}
+{
+  "timestamp": "2026-04-10T08:02:18.990893+0000",
+  "flow_id": 774983892069949,
+  "in_iface": "ens5",
+  "event_type": "alert",
+  "src_ip": "72.143.192.37",
+  "src_port": 4860,
+  "dest_ip": "172.31.1.144",
+  "dest_port": 1883,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "MQTT Malformed Payload - Too long",
+    "category": "",
+    "severity": 3
+  },
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 10,
+    "pkts_toclient": 2,
+    "bytes_toserver": 4540,
+    "bytes_toclient": 116,
+    "start": "2026-04-10T08:02:18.966871+0000",
+    "src_ip": "72.143.192.37",
+    "dest_ip": "172.31.1.144",
+    "src_port": 4860,
+    "dest_port": 1883
+  }
+}
