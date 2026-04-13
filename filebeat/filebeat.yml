@@ -7,8 +7,16 @@ filebeat.inputs:
   json.keys_under_root: true
   json.add_error_key: true
 
-output.elasticsearch:
-  hosts: ["172.31.1.144:9200"]
+# REMOVE (Lab 4 config):
+# output.elasticsearch:
+# hosts: ["http://host.docker.internal:9200"]
+
+#output.elasticsearch:
+#  hosts: ["172.31.21.11:9200"]
+
+#ADDING INSTEAD:
+output.logstash:
+  hosts: ["host.docker.internal:5044"]
   index: "suricata-alerts-%{+yyyy.MM.dd}"
 setup.template.name: "suricata-alerts"
 setup.template.pattern: "suricata-alerts-*"
